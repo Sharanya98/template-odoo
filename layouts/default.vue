@@ -1,7 +1,7 @@
 <template>
   <div>
     <LazyHydrate when-visible>
-      <!-- <TopBar class="desktop-only" /> -->
+      <TopBar class="desktop-only" />
     </LazyHydrate>
     <LazyHydrate when-idle>
       <AppHeader />
